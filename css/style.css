@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap");
+body{
+    font-family: 'Cairo', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+    box-shadow: 0px 2px 10px hsl(234, 91%, 45%)  ;
+}
+header{
+    min-height: 100vh;
+    padding-top: 100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.596),rgba(0, 0, 0, 0.596)), url(../images/mountains.jpg);
+}
+.slide{
+    min-height: 100vh;
+}
+
+.carousel-indicators button{
+    width: 10px !important;
+    height: 10px  !important;
+    border-radius: 50%;
+    background-color: yellow !important;
+}
+.card img{
+    margin-top: -70px;
+}
+footer{
+    background-color: rgb(53, 53, 53);
+    
+}
+.footer-navs{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+}
+.foo1-nav li,
+.foo2-nav li{
+    margin-right: 30px;
+}
+
+.foo2-nav li a,
+
+.foo1-nav li a
+
+{
+    color: white !important;
+}
+.foo1-nav li a:hover,
+.foo1-nav li:active,
+.foo2-nav li a:hover,
+.foo2-nav li a:active
+{
+    color: #ffbe0d !important;
+}
+@media(max-width : 991px){
+    .foo1-nav{
+    
+        flex-direction: column;
+    }
+    .foo2-nav{
+     
+        flex-direction: column;
+    }
+
+  
+ 
+}
+
